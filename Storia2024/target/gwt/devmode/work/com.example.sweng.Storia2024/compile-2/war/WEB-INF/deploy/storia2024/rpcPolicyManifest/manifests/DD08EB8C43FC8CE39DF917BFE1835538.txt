@@ -1,0 +1,2 @@
+serviceClass: com.example.sweng.client.services.register.RegisterService
+path: 4A10AA194D4FB982B31C21D1F97E4BC7.gwt.rpc

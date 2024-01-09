@@ -1,0 +1,5 @@
+# Module com.example.sweng.Storia2024JUnit.JUnit
+# RPC service class, partial path of RPC policy file
+com.google.gwt.logging.shared.RemoteLoggingService, 27350931B400814CCAC8AFDA204E31E2.gwt.rpc
+com.example.sweng.client.GreetingService, 95F2A1113561EDA0C38C9964626EBDE7.gwt.rpc
+com.google.gwt.junit.client.impl.JUnitHost, 96393FD5B90EFD77EACE5B4F721C3D47.gwt.rpc

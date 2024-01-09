@@ -39,6 +39,9 @@
   </servlet-mapping>
 
   <!-- Default page to serve -->
+  <configuration>
+    <webApp>${project.build.directory}/${project.build.finalName}</webApp>
+  </configuration>
   <welcome-file-list>
     <welcome-file>Storia2024.html</welcome-file>
   </welcome-file-list>

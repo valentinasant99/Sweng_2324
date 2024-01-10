@@ -1,6 +1,5 @@
 package com.example.sweng.server.services;
 
-import com.example.sweng.client.services.login.LoginService;
 import com.example.sweng.client.services.register.RegisterService;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 

@@ -3,6 +3,7 @@ package com.example.sweng.client;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.RootPanel;
 
+
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
  */
@@ -17,6 +18,8 @@ public class Storia2024 implements EntryPoint {
 
   public void goToHomePage() {
     RootPanel.get().clear();
+    HomePage homePage = new HomePage();
+    RootPanel.get().add(homePage);
   }
 
 

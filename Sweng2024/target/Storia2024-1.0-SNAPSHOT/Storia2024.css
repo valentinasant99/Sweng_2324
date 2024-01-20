@@ -101,3 +101,16 @@ body {
   width: 7em;
 
 }
+
+.homeButton {
+  color: white;
+  padding: 14px 64px;
+  margin: 32px auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #8b33c5, #15a0e1);
+  cursor: pointer;
+  transition: opacity 0.4s;
+  align-self: center;
+}

@@ -1,0 +1,13 @@
+binding: user.agent=gecko1_8
+Compiling module com.example.sweng.Storia2024
+   Unification traversed 20122 fields and methods and 1946 types. 1915 are considered part of the current module and 1915 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 1894 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 13,300s
+Linking into C:\Users\39371\Desktop\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-2\war\storia2024; Writing extras to C:\Users\39371\Desktop\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-2\extras\storia2024
+   Link succeeded
+   Linking succeeded -- 0,628s
+14,315s total -- Compile completed

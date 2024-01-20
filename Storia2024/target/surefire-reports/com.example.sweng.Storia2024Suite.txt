@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.sweng.Storia2024Suite
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.743 s - in com.example.sweng.Storia2024Suite

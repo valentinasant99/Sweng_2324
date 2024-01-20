@@ -1,2 +1,0 @@
-serviceClass: com.example.sweng.client.GreetingService
-path: 95F2A1113561EDA0C38C9964626EBDE7.gwt.rpc

@@ -14,7 +14,7 @@ public class HomePage extends Composite{
 
     VerticalPanel vPanel = new VerticalPanel();
 
-    public HomePage() {
+    public HomePage(Storia2024 app) {
 
         this.vPanel.addStyleName("wrapper");
         
@@ -53,10 +53,16 @@ public class HomePage extends Composite{
 
         cercaButton.addClickHandler(new ClickHandler() {
             public void onClick(ClickEvent click) {
-                        Window.alert("hai cliccato cerca");
-                    }
-                });
+                        Window.alert("hai cliccato cerca");}
+        
+        });
 
+        scriviButton.addClickHandler(new ClickHandler() {
+            public void onClick(ClickEvent click) {
+                app.goToWriteStory();
+            }
+            
+        });
     }
     
 }

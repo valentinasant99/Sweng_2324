@@ -6,6 +6,6 @@ import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 @RemoteServiceRelativePath("register")
 public interface RegisterService extends RemoteService{
 
-    boolean register(String email, String password);
+    boolean registerUser(String email, String password);
     
 }

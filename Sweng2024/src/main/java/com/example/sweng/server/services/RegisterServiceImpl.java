@@ -12,7 +12,7 @@ public class RegisterServiceImpl extends RemoteServiceServlet implements Registe
     private UserD userDAO = new UserDImpl();
 
     @Override
-    public boolean register(String email, String password) {
+    public boolean registerUser(String email, String password) {
         return this.userDAO.addUser(new User(email, password));
     }
 }

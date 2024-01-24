@@ -1,0 +1,4 @@
+# Module storia2024
+# RPC service class, partial path of RPC policy file
+com.example.sweng.client.services.login.LoginService, B7FEC80AA1D3222EFD558A93ACF62A71.gwt.rpc
+com.example.sweng.client.services.register.RegisterService, 4A10AA194D4FB982B31C21D1F97E4BC7.gwt.rpc

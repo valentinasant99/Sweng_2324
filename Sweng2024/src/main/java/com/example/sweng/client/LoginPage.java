@@ -91,7 +91,7 @@ public class LoginPage extends Composite{
 
         registerButton.addClickHandler(new ClickHandler() {
             public void onClick(ClickEvent click) {
-                registerService.register(emailBox.getText(), passwordBox.getText(), new AsyncCallback<Boolean>() {
+                registerService.registerUser(emailBox.getText(), passwordBox.getText(), new AsyncCallback<Boolean>() {
                     @Override
                     public void onFailure(Throwable arg0) {
                         Window.alert("error");

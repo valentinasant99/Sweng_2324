@@ -23,8 +23,8 @@ public class RegisterService_Proxy extends RemoteServiceProxy implements com.exa
       SERIALIZER);
   }
   
-  public void register(java.lang.String email, java.lang.String password, com.google.gwt.user.client.rpc.AsyncCallback callback) {
-    com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("RegisterService_Proxy", "register");
+  public void registerUser(java.lang.String email, java.lang.String password, com.google.gwt.user.client.rpc.AsyncCallback callback) {
+    com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("RegisterService_Proxy", "registerUser");
     try {
       SerializationStreamWriter streamWriter = helper.start(REMOTE_SERVICE_INTERFACE_NAME, 2);
       streamWriter.writeString("java.lang.String/2004016611");

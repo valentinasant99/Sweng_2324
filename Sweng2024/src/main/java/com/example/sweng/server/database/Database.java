@@ -14,7 +14,7 @@ public class Database {
     private static DB fileDB;
 
     private Database(){
-        fileDB = DBMaker.fileDB("fileDB").closeOnJvmShutdown().make();
+        fileDB = DBMaker.fileDB("../fileDB").closeOnJvmShutdown().make();
     }
 
     public static Database getInstance(){

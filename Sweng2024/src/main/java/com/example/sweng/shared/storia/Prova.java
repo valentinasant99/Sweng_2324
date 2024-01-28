@@ -9,7 +9,7 @@ import com.example.sweng.shared.storia.scenario.tipoScenario.Intermedio;
 public class Prova {
     public static void main(String[] args) {
 
-        Story storyEsempio = new Story();
+        Story storyEsempio = new Story("TestNome", "TestDescrizione");
 
 
         Iniziale iniziale = new Iniziale("Questa è una descrizione per l'inizio");

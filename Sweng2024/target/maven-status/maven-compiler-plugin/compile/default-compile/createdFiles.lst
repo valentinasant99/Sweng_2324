@@ -16,6 +16,7 @@ com\example\sweng\client\HomePage.class
 com\example\sweng\client\LoginPage$1$1.class
 com\example\sweng\shared\utente\SistemaDiPagamento.class
 com\example\sweng\client\LoginPage$2$1.class
+com\example\sweng\server\database\d\StoryD.class
 com\example\sweng\shared\FieldVerifier.class
 com\example\sweng\shared\utente\NonAbbonato.class
 com\example\sweng\client\CercaPage.class
@@ -32,6 +33,7 @@ com\example\sweng\server\GreetingServiceImpl.class
 com\example\sweng\client\GiocaPage.class
 com\example\sweng\shared\utente\Abbonato.class
 com\example\sweng\client\HomePage$1.class
+com\example\sweng\server\database\d\StoryDImpl.class
 com\example\sweng\client\HomePage$4.class
 com\example\sweng\client\LoginPage$2.class
 com\example\sweng\client\GreetingService.class

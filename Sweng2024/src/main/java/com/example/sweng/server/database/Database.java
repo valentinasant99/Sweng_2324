@@ -2,6 +2,7 @@ package com.example.sweng.server.database;
 
 //import org
 
+import com.example.sweng.shared.storia.Story;
 import com.example.sweng.shared.utente.User;
 import org.mapdb.DB;
 import org.mapdb.DBMaker;
@@ -12,6 +13,7 @@ public class Database {
 
     private static Database instance;
     private static DB fileDB;
+
 
     private Database(){
         fileDB = DBMaker.fileDB("../fileDB").closeOnJvmShutdown().make();
@@ -33,5 +35,8 @@ public class Database {
         return fileDB.treeSet("users", User.class).createOrOpen();
     }
 
+    public NavigableSet<Story> getStorySet() {
+        return fileDB.treeSet("story", Story.class).createOrOpen();
+    }
 
 }

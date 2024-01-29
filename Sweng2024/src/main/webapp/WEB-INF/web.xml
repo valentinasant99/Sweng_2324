@@ -21,6 +21,11 @@
     <servlet-class>com.example.sweng.server.services.RegisterServiceImpl</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>addStoryServlet</servlet-name>
+    <servlet-class>com.example.sweng.server.services.AddStoryServiceImpl</servlet-class>
+  </servlet>
+
 
 
   <servlet-mapping>
@@ -36,6 +41,11 @@
   <servlet-mapping>
     <servlet-name>registerServlet</servlet-name>
     <url-pattern>/storia2024/register</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>addStoryServlet</servlet-name>
+    <url-pattern>/storia2024/addStory</url-pattern>
   </servlet-mapping>
 
   <!-- Default page to serve -->

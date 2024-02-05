@@ -12,7 +12,7 @@ public class UserDImpl implements UserD {
     @Override
     public User getUser(String email, String password) {
         NavigableSet<User> userSet = Database.getInstance().getUsersSet();
-        userSet.add(new User("ciao", "ciao"));
+//        userSet.add(new User("ciao", "ciao"));
         User newUser = new User(email, password);
         if (userSet.contains(newUser)) return newUser;
         else return null;
@@ -42,3 +42,4 @@ public class UserDImpl implements UserD {
 
     
 }
+

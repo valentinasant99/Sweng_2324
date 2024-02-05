@@ -3,8 +3,6 @@ package com.example.sweng.shared.storia.scenario.tipoScenario;
 
 import com.example.sweng.shared.storia.scenario.Scenario;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Finale extends Scenario {
     private String azione;

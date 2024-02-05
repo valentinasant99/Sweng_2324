@@ -1,2 +1,0 @@
-serviceClass: com.example.sweng.client.services.login.LoginService
-path: B7FEC80AA1D3222EFD558A93ACF62A71.gwt.rpc

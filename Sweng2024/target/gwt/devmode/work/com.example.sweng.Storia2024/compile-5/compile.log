@@ -1,13 +1,14 @@
 binding: user.agent=safari
 Compiling module com.example.sweng.Storia2024
-   Unification traversed 932 fields and methods and 574 types. 8 are considered part of the current module and 16 had all of their fields and methods traversed.
+   Unification traversed 1111 fields and methods and 585 types. 5 are considered part of the current module and 13 had all of their fields and methods traversed.
+   [WARN] Some stale types ([com.example.sweng.client.WritePage$1]) were not reprocessed as was expected. This is either a compiler bug or a Generator has legitimately stopped creating these types.
    Compiling 1 permutation
       Compiling permutation 0...
-      Linking per-type JS with 8 new/changed types.
+      Linking per-type JS with 5 new/changed types.
       Source Maps Enabled
    Compile of permutations succeeded
-   Compilation succeeded -- 1,399s
-Linking into C:\Users\bruno\OneDrive\Desktop\Sweng_2324\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-5\war\storia2024; Writing extras to C:\Users\bruno\OneDrive\Desktop\Sweng_2324\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-5\extras\storia2024
+   Compilation succeeded -- 4,077s
+Linking into /Users/valentinasant/Downloads/Sweng_2324/Sweng2024/target/gwt/devmode/work/com.example.sweng.Storia2024/compile-5/war/storia2024; Writing extras to /Users/valentinasant/Downloads/Sweng_2324/Sweng2024/target/gwt/devmode/work/com.example.sweng.Storia2024/compile-5/extras/storia2024
    Link succeeded
-   Linking succeeded -- 0,098s
-1,648s total -- Compile completed
+   Linking succeeded -- 0,158s
+4,693s total -- Compile completed

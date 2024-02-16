@@ -1,0 +1,2 @@
+serviceClass: com.example.sweng.client.services.addStory.AddStoryService
+path: 8AEC74494F5BB10C5EE29E25DC3ACCE7.gwt.rpc

@@ -23,18 +23,18 @@ public class Storia2024 implements EntryPoint {
     RootPanel.get().add(loginPage);
   }
 
-/*   public void goToHomePage() {
+  public void goToHomePage() {
     // Quando si desidera andare alla pagina principale, aggiorna la cronologia
     History.newItem("home");
-  } */
+  }
 
   private void handleHistoryChange(String historyToken) {
     if ("home".equals(historyToken)) {
-      goToHomePage();
+      showHomePage();
     } else if ("cercaPage".equals(historyToken)) {
       showCercaPage();
-    } else if ("writePage".equals(historyToken)) {
-      goToWriteStory();
+    } else if ("scriviPage".equals(historyToken)) {
+      showScriviPage();
     } else if ("giocaPage".equals(historyToken)) {
       showGiocaPage();
     } else if ("pagaPage".equals(historyToken)) {
@@ -44,9 +44,9 @@ public class Storia2024 implements EntryPoint {
     }
   }
 
-  public void goToHomePage() {
+  private void showHomePage() {
     RootPanel.get().clear();
-    HomePage homePage = new HomePage(this);
+    HomePage homePage = new HomePage();
     RootPanel.get().add(homePage);
   }
 
@@ -56,11 +56,10 @@ public class Storia2024 implements EntryPoint {
     RootPanel.get().add(cercaPage);
   }
 
-  public void goToWriteStory() {
+  private void showScriviPage() {
     RootPanel.get().clear();
-    WritePage writePage = new WritePage();
-    RootPanel.get().add(writePage);
-
+    ScriviPage scriviPage = new ScriviPage(); // Assumi che tu abbia una classe ScriviPage
+    RootPanel.get().add(scriviPage);
   }
 
   private void showGiocaPage() {
@@ -73,13 +72,6 @@ public class Storia2024 implements EntryPoint {
     RootPanel.get().clear();
     PagaPage pagaPage = new PagaPage(); // Assumi che tu abbia una classe PagaPage
     RootPanel.get().add(pagaPage);
-  }
-
-  public void goToSearchStory() {
-    RootPanel.get().clear();
-    CercaPage cercaPage = new CercaPage();
-    RootPanel.get().add(cercaPage);
-
   }
 
 }

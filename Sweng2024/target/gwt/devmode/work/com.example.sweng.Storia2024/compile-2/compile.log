@@ -1,0 +1,14 @@
+binding: user.agent=gecko1_8
+Compiling module com.example.sweng.Storia2024
+   Unification traversed 4196 fields and methods and 1111 types. 208 are considered part of the current module and 220 had all of their fields and methods traversed.
+   [WARN] Some stale types ([com.example.sweng.client.WritePage]) were not reprocessed as was expected. This is either a compiler bug or a Generator has legitimately stopped creating these types.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 208 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 9,002s
+Linking into C:\Users\39371\Desktop\SwengNuovo\Sweng_2324\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-2\war\storia2024; Writing extras to C:\Users\39371\Desktop\SwengNuovo\Sweng_2324\Sweng2024\target\gwt\devmode\work\com.example.sweng.Storia2024\compile-2\extras\storia2024
+   Link succeeded
+   Linking succeeded -- 0,777s
+10,931s total -- Compile completed
